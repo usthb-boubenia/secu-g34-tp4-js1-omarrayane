@@ -40,7 +40,7 @@ function B(moy) {
 function A() {
   //  une boucle for...of (slide 44)
   for (let student of Students) {
-    let moyenne = (student.note1 + student.note2) / 2 + 5;
+    let moyenne = (student.note1 + student.note2) / 2 + 5;//Addition et division vu dans le slide 41
     // Appel de la fonction B() avec la moyenne (slide 47 – passage de paramètre)
     let resultat = B(moyenne);
 

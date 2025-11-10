@@ -3,12 +3,12 @@
 
 // creation d'un tableau de chaine de caractères ( slide 38)
 const Etudiants = ["Etudiant1", "Etudiant2", "Etudiant3"];
-
+// Fonction F1() (Slide 45 - Fonctions sans parametre)
 //  une boucle pour afficher le tableau Etudiants ( slide 44)
 function F1() {
     // Boucle: for ( slide 44)
     for (let i = 0; i < Etudiants.length; i++) {
-        console.log(Etudiants[i]);
+        console.log(Etudiants[i]);// Affichage dans la console (Slide 33 : console.log)
     }
 }
 // declaration de l'objet etudiant ( slide 39)
@@ -19,6 +19,7 @@ const etudiant = {
 };
 // affichage de l'etudiant ( slide 39)
 function F2() {
+     //Ici on utilise console.log, vu dans le slide 33
     console.log(etudiant);
 }
 // un tableau d'objets etudiants ( slide 40)
@@ -44,7 +45,7 @@ function F3() {
     // Boucle: for (vu dans le slide 44)
     for (let i = 0; i < etudiants.length; i++) {
         //ici on utilise console.log(), vu dans le slide 33
-        console.log(etudiants[i].nom + "-" + etudiants[i].prenom + "-" + etudiants[i].age)
+        console.log(etudiants[i].nom + "-" + etudiants[i].prenom + "-" + etudiants[i].age)//Ici on utilise un affichage élaboré, vu dans le slide 37
     }
 }
 
